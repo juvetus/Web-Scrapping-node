@@ -8,5 +8,6 @@ fetch('http://localhost:8000/results')
             feedDisplay.insertAdjacentHTML("beforeend", articleItem)
         })
     })
+    console.log(response)
     .catch(err => console.log(err))
 
